@@ -111,34 +111,34 @@ body p{
 @keyframes box{
     0%{
         opacity: 1;
-        width: 63%;
+        width: 580px;
         
          
     }
     15%{
         opacity: 1;
-        width: 60%;
+        width: 600px;
         
     }
     30%{
         opacity: 1;
-        width: 63%;
+        width: 580px;
     }
     45%{
         opacity: 1;
-        width: 60%;
+        width: 600px;
     }
     61%{
         opacity: 1;
-        width: 63%;
+        width: 580px;
     }
     77%{
         opacity: 1;
-        width: 60%;
+        width: 600px;
     }
     100%{
         opacity: 1;
-        width: 63%; 
+        width: 580px; 
     }
 }
 .box:hover{
