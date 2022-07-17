@@ -69,7 +69,81 @@ body p{
     background: url(peixe.png);
     border-radius: 50%;
 }
-
+.animacao{
+    align-items: center;
+    justify-content: center;
+    color: chartreuse;
+    font-weight: bold;
+    font-size: 2em;
+    display: flex;
+    transition-delay: 2.5s;
+    animation: animacao 5s infinite ;
+}
+@keyframes animacao {
+      
+    0% {
+      letter-spacing: 0.3em;
+      width: 100%;
+    }
+    20% {
+        letter-spacing: 1em;
+        width: 100%;
+      }
+    40% 
+    {
+        letter-spacing: 0.3em;
+        width: 100%;
+     }
+    60%{
+        letter-spacing: 1em;
+        width: 100%;
+    }
+    80%{
+        letter-spacing: 0.3;
+        width: 100%;
+    }
+  }
+.box{
+    display: flex;
+    transition-delay: 2.5s;
+    animation: box 5s infinite ;
+}
+@keyframes box{
+    0%{
+        opacity: 1;
+        width: 63%;
+        
+         
+    }
+    15%{
+        opacity: 1;
+        width: 60%;
+        
+    }
+    30%{
+        opacity: 1;
+        width: 63%;
+    }
+    45%{
+        opacity: 1;
+        width: 60%;
+    }
+    61%{
+        opacity: 1;
+        width: 63%;
+    }
+    77%{
+        opacity: 1;
+        width: 60%;
+    }
+    100%{
+        opacity: 1;
+        width: 63%; 
+    }
+}
+.box:hover{
+    animation: stop;
+}
 .box span:nth-child(1){
     clip-path: polygon(0 0, 50% 0, 50% 50%, 0 50%);
     transition-delay: 0s;
