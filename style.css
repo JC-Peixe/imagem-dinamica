@@ -427,7 +427,6 @@ header li ion-icon{
 }
 header li:hover ion-icon{
     transform: scale(0);
-    color: #FFF;
     transition-delay: 0s;
 }
 header li span{
